@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./project1.css">
+</head>
+<body>
+     <div class="img11"><a href=""><img src="data:image/png;base64,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" width="300px" alt=""></a></div>
+    <nav>
+        <ul type="none" class="ul">
+            <li><a href="ent">Enterprise</a></li>
+            <li><a href="sme">SME</a></li>
+            <li><a href="per">Personal</a></li>
+            <li><a href="res">Resources</a></li>
+            <li><a href="dev">Developers</a></li>
+            <li><a href="com">Company</a></li>
+            <button>Sigh in</button>
+            
+        </ul>
+    </nav>
+    <section class="pa1">
+        <h1 class="h1"> <span>Endless <br> possibilitiess </span><br>for all</h1>
+        
+        <p class="no1">unlocking boundless payment opportunities for enterprises, <br> individuals, small business, emerging markets, and startups <br> alike.</p>
+    </section>
+
+    <div class="did">
+        <button class="bu1">create a free account</button>
+        <button class="bu2">contact sales</button>
+    
+    <div class="dog2">
+        <div class="uuu"><img src="https://cdn.filestackcontent.com/resize=width:1200/output=format:webp/9vezKnDQR6a77H7GUB4k" width="655px" height="450px" alt=""></div>
+        <div class="hug"><img  src="https://cdn.filestackcontent.com/resize=width:1100/output=format:webp/mwD8KbckQ9ybvyaDOsmQ" width="566px" height="550px" alt=""><br><p>Send money home to loved ones, sell online as a small business, process global payments as an enterprise, build financial products as a startup, with Flutterwave, the question isn't what's possible-it is: what's isn't?</p></div>
+        
+    </div>
+
+    <div class="work">
+        <p class="no2">we are trusted by <strong>1 million+</strong> businesses & <strong>2 million+</strong> individuals </p>
+
+    </div>
+    </div>
+    <div class="take">
+        <div><img src="https://icons-for-free.com/download-icon-uber-1324440247504689178_512.png" width="100px" alt=""></div>
+        <div class="olo"><img src="https://1000logos.net/wp-content/uploads/2022/08/MTN-Logo.jpg" width="100px" alt=""></div>
+        <div class="olu"><img src="https://www.techzim.co.zw/wp-content/uploads/2020/06/Annotation-2020-06-20-180629.png" width="100px" alt=""></div>
+        <div id="stu"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCPS40EyxshJvA_mWecSpe0-XNhHHXzkxSY80Iy6oavn2JO0odrJQsw3b7CzQJOEVrbI&usqp=CAU" width="100px" alt=""></div>
+        <div><img src="https://vectorseek.com/wp-content/uploads/2023/04/TransferWise-Icon-Logo-Vector.jpg" width="100px" alt=""></div>
+        <div><img src="https://www.freepnglogos.com/uploads/microsoft-logo-png-transparent-20.png" width="200px" alt=""></div>
+
+    </div>
+
+    <div>
+        <h2 class="no3">Endless payment <br> possibilities <span>for <br> enterprises</span></h2>
+    
+    </div>
+
+    <section class="cupp">
+        <div class="gap1">
+            <h4>Online checkout</h4>
+            <p>Our online checkout features our smart payment ordering system, incredible speed, and beautiful simplicity. it's designed to grow your revenue and provide the best payment experience to your customers.</p>
+            <button>Get started</button>
+        </div>
+
+        <div class="lala"><img src="https://www.flutterwave.com/images/sections/checkout.png" width="300px" alt=""></div>
+
+        <div class="gap">
+            <h4>Accept Payments</h4>
+            <p class="no4">Easily receive money from anyone, anywhere in the world via our multitude of secure payment methods</p>
+            <a href="learn">Learn more</a>
+            <h4>Transfers (Payout)</h4>
+            <p>make single or bulk transfers to bank accounts from your Flutterwave dashboard</p>
+            <a href="learn">Learn more</a>
+            
+        </div>
+    </section>
+    <section class="agbawo">
+        <h3 class="no4">Endless payment <br> possibilities for every <br> <span>small  business.</span></h3>
+
+        <div class="agba">
+            <div class="dubb"> 
+                <h5 class="h5">Store</h5>
+                <P>Create a free ecommerce website and start selling worldwide with just a few clicks.</P>
+                <button>Start selling</button>
+            </div>
+            <div><img src="https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP" width="600px" height="600px" alt="" ></div>
+        </div>
+        <div class="disp">
+         <div id="joebb"><img src="https://cdn.filestackcontent.com/resize=width:394/output=format:webp/lc5K7jXVQiS9jBWmcdKg" width="600px"  alt=""><br><p>A platform for you, whether you're a big business or <span>solo artist.</span></p></div>
+         <div class="com">
+            <h5 class="h5">Invoices</h5>
+            <p>Generate professional invoices for your customers and get paid from anywhere.</p>
+            <a href="">Get started</a>
+
+            <h5 class="h5">Payment links</h5>
+            <p>Receive one-off or recurring payments from anyone, anywhere, via unique payment link.</p>
+            <a href="learn">Learn more</a>
+            
+         </div>
+        </div>
+
+        <div class="japo"><p class="jaas">Let's play to our strengths, shall we? You focus on bringing your amazing ideals to life and we focus on providing all the <span>commerce tools </span> you need.</p>
+        <button>Okay, let's go</button></div>
+        </div>
+    </section>
+    <section class="class">
+        <div class="sec">
+            <h3 class="no9">Endless payment <br> possibilities for <br> every <span>individual </span></h3>
+            <p class="no5">Flutterwave offers a host of seamless products for individuals, ensuring smooth transaction and efficient money management.</p>
+        </div>
+    
+        <!-- <section class="waha"> -->
+            <!-- <div class="ruth"> -->
+            <!-- <div class="jul"> -->
+                <!-- <h2 class="no6">send money to loved ones</h2> -->
+                <!-- <p class="no11">Experience the convenience and security of send, enabling you to effortlessly and securely transfer funds to your beloved ones residing overseas. beging sharing financial support with the ones who hold significance in your life right <a href="#">here</a> </p> -->
+            <!-- </div> -->
+            <!-- <div class="gab"> -->
+                <!-- <h2 class="no6">shop online</h2> -->
+                <!-- <p class="no11">Explore a world of possibilities as you Discover , shop, and have your purchases conveniently delivered from your cherished online businesses. Embark on a secure shopping journey and relish the joy of acquiring great items from amazing small businesses, right <a href="#">here</a> </p> -->
+            <!-- </div> -->
+            <!-- <div class="jud"> -->
+                <!-- <h2  class="no6">Find events and buy tickets</h2> -->
+                <!-- <p class="no11">Browse upcoming events and secure your ticket on our Afriticket platform <a href="#">here</a> </p> -->
+            <!-- </div> -->
+            <!-- </div> -->
+        <!-- </section> -->
+        <div class="row p-5">
+            <div class="col-sm">
+                <div class="card text-start mb-3 bg-dark text-light" style="width: 22rem; height: 17rem;">
+                    <div class="card-body">
+                        <i class="bi bi-laptop fs-2"></i>
+                        <h2>send money to loved ones</h2>
+                        <p>Experience the convenience and security of send, enabling you to effortlessly and securely transfer funds to your beloved ones residing overseas. beging sharing financial support with the ones who hold significance in your life right <a href="#" class="text-danger">here</a> </p>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-start mb-3 bg-dark text-light " style="width: 22rem; height: 17rem;">
+                    <div class="card-body">
+                        <i class="bi bi-file-person fs-2"></i>
+                        <h2>shop online</h2>
+                        <p>Explore a world of possibilities as you Discover , shop, and have your purchases conveniently delivered from your cherished online businesses. Embark on a secure shopping journey and relish the joy of acquiring great items from amazing small businesses, right <a href="#" class="text-danger">here</a> </p>
+                     
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-start mb-3 bg-dark text-light" style="width: 22rem; height: 17rem;">
+                    <div class="card-body">
+                        <i class="bi bi-people fs-2"></i>
+                        <h2>Find events and buy tickets</h2>
+                        <p>Browse upcoming events and secure your ticket on our Afriticket platform <a href="#" class="text-danger">here</a> </p>
+                      
+                    </div>
+                  </div>
+                  
+            </div>
+        </div>
+    <section class="odog">
+        <h2 class="odog1">Well documented and <br> easy-to-use <span>ApIs </span> for <br> <span> Developers</span></h2>
+        
+        <p class="odog2">We have done the core payments integrations and abstractions, <br> so your team can easily integrate with our APls and access <br> multiple payment functionalities.</p>
+        <div>
+        <ul>
+            <li>Quick transfer</li><br><br>
+            <li>Initiate one-time and recurring payments</li><br><br>
+            <li>payment verification </li><br><br>
+            <li>instant visual cards creation</li><br><br>
+            <li>customer verification</li>
+        </ul> 
+        
+        <button>Read the APIs docs</button>
+        
+        <section class="cala">
+            <h4 class="h4">our <span> global</span> reach </h4>
+        
+            <div class="google">
+                <!-- <div> -->
+                    <!-- <img src="https://flutterwave.com/images/sections/dots.png" height="55%" alt="choose"> -->
+                <!-- </div> -->
+                <div class="wojo">
+                    <div class="bed">
+                   <h4><span>30+ Currencies</span></h4>
+                   <p>we accept payments in more than thirthy countries </p>
+                   </div>
+                   <div class="bed">
+                   <h4>20M+ API calls</h4>
+                   <p> API calls per day, peaking 231 requests per secondsbr </p>
+                   </div>
+                   <div class="bed">
+                   <h4>500k+ payment daily</h4>
+                   <p>Average number of payments processed daily </p>
+                   </div>
+                   <div class="bed">
+                   <h4>15+ payment option</h4>
+                   <div class="list">
+                    <div>
+                        <ul type="none">
+                            <li>Debit & credit card</li>
+                            <li>mobile money</li>
+                            <li>M-pesa</li>
+                            <li>bank transfer</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul type="none">
+                            <li>Bank account</li>
+                            <li>POS</li>
+                            <li>VISA QR</li>
+                            <li>USSD</li>
+                        </ul>
+                    </div>
+                   </div>
+                </div>
+                </div>
+                <div class="hugo"><img src="https://previews.123rf.com/images/rtguest/rtguest1007/rtguest100700002/7302080-world-globe-map.jpg" width="550px" alt=""></div>
+            </div>
+        </section>
+           <div class="snr">
+            <div class="elder">
+                <h4 class="colla">Ready to get started</h4>
+                <p class="koko">create an account and instantly start accepting payments, selling your beautiful products online and building financial tools.</p>
+                <button>Get started</button>
+                <a href="#">contact sales</a>
+            </div>
+           </div> 
+        <footer>
+            <div class="dfless">
+                <div>
+                   <h4 class="mumm">Products</h4>
+                   <ul class="jeho" type="none">
+                   <li><a href="#">Collect payments</a></li>
+                   <li><a href="#">Send money</a></li>
+                   <li><a href="#">Store</a></li>
+                   <li><a href="#">Payment Links</a></li>
+                   <li><a href="#">Invoices</a></li>
+                   <li><a href="#">Capital</a></li>
+                   <li><a href="#">Grow</a></li>
+                   <li><a href="#">Card issuing</a></li>
+                   <li><a href="#">FaaS</a></li>
+                   <li><a href="#">Disha</a></li>
+                   <li><a href="#">Send</a></li>
+                   <li><a href="#">Tuition</a></li>
+                   </ul>
+                </div>
+                <div>
+                    <h4 class="mumm">Resources</h4>
+                    <ul class="jeho" type="none">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">why you got charged</a></li>
+                    <li><a href="#">Cookie settings</a></li>
+                    </ul>
+                 </div>
+                 <div>
+                    <h4 class="mumm">Developers</h4>
+                    <ul class="jeho" type="none">
+                    <li><a href="#">API Ducumentation</a></li>
+                    <li><a href="#">API Reference</a></li>
+                    <li><a href="#">API Status <img src="" alt=""></a></li>
+                    </ul>
+                 </div>
+                 <div>
+                    <h4 class="mumm">Company</h4>
+                    <ul class="jeho" type="none">
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Covid 19</a></li>
+                    </ul>
+                    
+                 </div>
+                 <div>
+                    <h4 class="mumm">Contact</h4>
+                    <ul class="jeho" type="none">
+                    <li><a href="#">hi@flutterwavego.com</a></li>
+                    <li><a href="#">+234 1-8889595</a></li>
+                    <li><a href="#">0700 FLUTTERWAVE</a></li>
+                    <li><a href="#">Twitter Support</a></li>
+                    <li><a href="#">Our call lines are avaliable 24/7</a></li>
+                    </ul>
+
+                 </div>
+            </div>
+            <hr>
+                <div class="tttt">
+                    <div class="ttt1">
+                        <div>                  
+                        <a href="#">
+                            <img src="https://cdn1.iconfinder.com/data/icons/international-circular-flags/512/nigeria_nigerian_national_country_flag-512.png" width="30px" alt=""> </a></li>
+                           
+                        </div>
+                        <div id="ttt2">
+                            <a href="#">
+                                <select name="" id="idoo">
+                                    <option value="">Nigeria</option>
+                                    <option value="">morocco</option>
+                                    <option value="">liberia</option>
+                                    <option value="">Egypt</option>
+                                    <option value="">Senega</option>
+                                    <option value="">Aigeria</option>
+                                </select>  
+                            </a>
+                           
+                            </div>
+                    </div>
+                        
+                 <div class="aabb">
+                 
+                       <div> <a href="#">Twitter</a></div>
+                       <div><a href="#">Facebook</a></div> 
+                       <div><a href="#">Instagram</a></div> 
+                        <div> <a href="#">YouTube</a></div>
+                      <div> <a href="#">Linkedin</a></div>                
+                       
+                 </div>
+            
+        </footer>   
+        
+           
+           
+    </section>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+      
+</body>
+</html>

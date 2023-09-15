@@ -1,0 +1,514 @@
+.no2 {
+    font-size: 20px;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.take {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 0.5rem; */
+    margin-top: 3rem;
+}
+
+.olo {
+    margin-top: 1.5rem;
+}
+
+.japo button {
+    width: 160px;
+    height: 4rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(3, 3, 63);
+    cursor: pointer;
+    margin-left: 4.5rem;
+    margin-bottom: 4rem;
+    
+
+}
+
+.agbawo {
+    background-color: #F8FAFD;
+}
+
+.olu {
+    margin-top: 2.2rem;
+}
+
+.com a {
+    color: orange;
+    text-decoration: none;
+    /* margin-top: 5rem; */
+    
+}
+
+#stu {
+    margin-top: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+span {
+    color: orange;
+}
+
+.img11 {
+    position: absolute;
+    top: 60px;
+    
+    margin-left:  5rem;
+    
+}
+
+.h1 {
+    font-size: 90px;
+    margin-left:  5rem;
+}
+
+.no1 {
+    font-size: 20px;
+    margin-left:  5rem;
+    text-align: justify;
+    
+
+
+}  
+
+
+#joebb {
+    margin-left:  5rem;
+    
+}
+.dog2 {
+    display: flex;
+    
+}
+
+.gap a {
+    color: orange;
+    text-decoration: none;
+}
+
+.gap1 button {
+    width: 120px;
+    height: 3rem;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(3, 3, 63);
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.lala {
+    margin-right: 4rem;
+    box-shadow: 3px 3px 30px black;
+    border: none;
+} 
+
+.disp {
+    display: flex;
+}
+
+#joebb span {
+    color: rgb(38, 167, 167);
+}
+
+#joebb p {
+    font-size: 20px;
+    margin-left: 0 4rem;
+}
+
+.com {
+    padding: 5rem 7rem;
+}
+.gap {
+    padding: 0 2rem;
+    font-size: 20px;
+}  
+.jaas {
+    font-size: 72px;
+    padding: 1rem 4rem;
+    text-align: justify;
+}
+
+.japo span {
+    color: rgb(2, 92, 2);
+}
+
+.agba {
+    display: flex;
+    padding: 0 9rem;
+}
+
+.dubb {
+    margin-right:  3rem;
+    margin-top:  4rem;
+}
+.dubb p {
+    font-size: 20px;
+}
+
+.dubb button {
+    width: 120px;
+    height: 3rem;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(3, 3, 63);
+    cursor: pointer;
+    margin-top: 0 2rem;
+}
+
+.gap1 {
+    padding: 8rem;
+}
+
+.h5 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 100px;
+    padding: 5rem;
+}
+h3 span {
+    color: rgb(8, 84, 8);
+}
+
+
+
+
+.no5 {
+    font-size: 20px;
+    margin-left: 1.5rem ;
+}
+
+.cupp {
+    display: flex;
+    margin-right: 0 7rem;
+    font-size: 20px;
+}
+.no3 {
+    font-size: 100px; 
+    margin-left:  5rem;
+    margin-top:  12rem;   
+}
+/* .did { */
+    /* margin-top:  5rem; */
+/* } */
+
+.dog img p {
+    font-size: 70px;
+}
+.uuu {
+    margin-top:  17rem;
+    margin-right:  4rem;
+}
+
+.hug p {
+    font-size: 20px;
+    margin-top: 0 4rem;
+}
+.waha {
+    
+    background-color: black;
+    color: white;
+        
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.ruth {
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .jud { */
+    /*  */
+    /* margin-left: 2rem; */
+    /* background-color: rgb(1, 18, 18); */
+    /* border-radius: 5px; */
+    /* padding: 0 20px; */
+    /*  */
+    /*  */
+    /*  */
+/* } */
+/*  */
+/* .gab { */
+/*  */
+    /* margin-left:  2rem; */
+    /* background-color: rgb(1, 18, 18); */
+    /* border-radius: 5px; */
+    /* padding: 0 20px; */
+/* } */
+/*  */
+/* .jul { */
+    /*  */
+    /* margin-left:  2rem; */
+    /* background-color: rgb(1, 18, 18); */
+    /* border-radius: 5px; */
+    /* padding: 0 20px; */
+/* } */
+/*  */
+
+
+.no9 {
+    font-size: 70px;
+    padding:  20px;
+    
+}
+
+.no6 {
+    font-size: 15px;
+  
+}
+
+.no9 span {
+    color: palevioletred;
+}
+
+.class {
+    background-color: black;
+    color: white;
+    /* margin:  auto; */
+}
+.bu1 {
+    width: 200px;
+    height: 3.5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-left:  5rem;
+}
+
+.sec {
+    /* text-align: center; */
+    padding: 0 25%;
+}
+
+.class p {
+    margin-top: 0 10rem;
+    align-items: center;
+
+}
+
+.bu2 {
+    width: 120px;
+    min-height: 3.2rem;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    margin-left:  10px;
+    border: 2px solid wheat;
+    
+}
+.gigi {
+    position: absolute;
+    top: 4.5rem;
+    left: 5rem;
+}
+
+nav button {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+nav button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 2s;
+    
+}
+
+.ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4rem;
+    margin-top:  5rem;
+}
+
+.odog {
+    background-color: #F8FAFD;
+    margin: 0 auto;
+    color: black;
+    padding: 50px 120px;
+    
+}
+
+.odog1 {
+    font-size: 80px;
+}
+
+.odog2{
+    font-size: 23px;
+    
+}
+
+.odog1 span {
+    color: pink;
+}
+
+.uli {
+    margin-left: 2rem;
+}
+
+.odog button{
+    width: 160px;
+    height: 4rem;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(3, 3, 63);
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.google {
+    display: flex;
+}
+
+.hugo {
+    margin-left:  10rem;
+    margin-top: 5rem;
+}
+
+.google span {
+    color: aqua;
+}
+
+.bed {
+    margin-top: 5rem;
+}
+
+.colla {
+    font-size: 60px;
+}
+
+.snr {
+    margin: 15rem auto;
+    width: 1020px;
+    height: 450px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 3px 3px 80px black;
+
+}
+
+.elder {
+    padding: 2rem 15rem;
+}
+
+.koko {
+    font-size: 20px;
+}
+
+.elder button {
+    width: 140px;
+    height: 4rem;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.elder a {
+    margin-left: 5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.dfless {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.jeho a {
+    text-decoration: none;
+    color: black;
+    
+    font-size: 16px;
+    
+}
+
+.jeho li {
+    margin-top: 2.2rem;
+}
+.list {
+    display: flex;
+}
+.mumm {
+    font-size: 20px;
+    margin-left: 2.5rem;
+}
+.h4 {
+     font-size: 100px;
+     margin-left: 0 1rem;
+     color: black;
+}
+.h4 span {
+    color: rgb(72, 72, 208);
+}
+
+h4 {
+    font-size: 25px;
+}
+hr {
+    margin-top: 4rem;
+    
+}
+
+
+.tttt {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.ttt1{
+ display: flex;
+ margin-top: 1rem;
+ gap: 20px;
+}
+
+.aabb {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    
+
+}
+
+#idoo {
+    border: 2px solid white;
+}
+
+.aabb a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    
+
+}
+.aabb a:hover {
+    color: rgb(164, 225, 225);
+}
+
+.wojo {
+    margin-left: 2rem;
+}
+
+.cala {
+    margin-top: 10rem;
+}
